@@ -6,6 +6,7 @@ import { toast } from 'sonner';
 export const Admin: React.FC = () => {
   const [guestTitle, setGuestTitle] = useState('Mr.');
   const [guestName, setGuestName] = useState('');
+  const [includeDear, setIncludeDear] = useState(true);
   const [generatedUrl, setGeneratedUrl] = useState('');
   const [copied, setCopied] = useState(false);
 
@@ -38,12 +39,14 @@ export const Admin: React.FC = () => {
     });
   };
 
-  const generateFullMessage = (url: string, title: string, name: string) => {
+  const generateFullMessage = (url: string, title: string, name: string, withDear: boolean) => {
     const fullName = title.toLowerCase() === 'family'
       ? `${name.trim()} and Family`
       : `${title ? title + ' ' : ''}${name}`.trim();
 
-    return `Dear ${fullName} ❤️
+    const greeting = withDear ? `Dear ${fullName}` : fullName;
+
+    return `${greeting} ❤️
 
 With joyful hearts, we warmly invite you to celebrate one of the most special days of our lives as we begin our journey together.
 
@@ -58,7 +61,7 @@ With love,
   };
 
   const handleCopyMessageActive = () => {
-    const msg = generateFullMessage(generatedUrl, guestTitle, guestName);
+    const msg = generateFullMessage(generatedUrl, guestTitle, guestName, includeDear);
     navigator.clipboard.writeText(msg).then(() => {
       toast.success('Full message copied to clipboard!');
     }).catch(() => {
@@ -150,6 +153,19 @@ With love,
                     className="w-full bg-white px-6 py-4 rounded-full border border-stone-200/80 focus:ring-2 focus:ring-brand-lavender/30 focus:border-brand-plum/40 outline-none transition-all font-serif italic text-lg shadow-inner text-stone-800 placeholder:text-stone-400"
                   />
                 </div>
+                
+                <div className="flex items-center gap-3 ml-1 pt-2">
+                  <input
+                    type="checkbox"
+                    id="includeDear"
+                    checked={includeDear}
+                    onChange={(e) => setIncludeDear(e.target.checked)}
+                    className="w-5 h-5 text-brand-plum bg-white border-stone-300 rounded focus:ring-brand-plum/40 focus:ring-2 cursor-pointer accent-brand-plum"
+                  />
+                  <label htmlFor="includeDear" className="text-sm font-serif text-stone-600 cursor-pointer">
+                    Include "Dear" before the name
+                  </label>
+                </div>
               </div>
 
 
@@ -185,7 +201,7 @@ With love,
                       <Sparkles className="w-3 h-3" /> WhatsApp Message Preview
                     </p>
                     <div className="text-sm text-stone-700 font-serif whitespace-pre-wrap leading-relaxed bg-white/60 p-4 rounded-xl border border-stone-100">
-                      {generateFullMessage(generatedUrl, guestTitle, guestName)}
+                      {generateFullMessage(generatedUrl, guestTitle, guestName, includeDear)}
                     </div>
                   </div>
 
