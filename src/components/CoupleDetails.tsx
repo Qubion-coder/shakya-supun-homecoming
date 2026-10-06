@@ -22,9 +22,6 @@ export const CoupleDetails: React.FC = () => {
           </div>
           <h2 className="text-5xl sm:text-7xl font-names text-stone-800 tracking-tight drop-shadow-sm">
             Shakya <span className="text-brand-plum font-light mx-2">&</span> Supun
-            <div className="text-3xl sm:text-5xl mt-4 font-sinhala text-stone-800 drop-shadow-sm">
-              ශාක්‍යා සහ සුපුන්
-            </div>
           </h2>
         </motion.div>
       </div>
@@ -39,18 +36,11 @@ export const CoupleDetails: React.FC = () => {
           className="text-center lg:text-right flex-1 lg:pr-10 order-1"
         >
           <div className="mb-4 flex flex-col items-center lg:items-end">
-            <span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Groom</span>
-            <h3 className="text-4xl sm:text-5xl font-names text-stone-800 mb-1 drop-shadow-sm">Supun</h3>
-            <h4 className="text-2xl sm:text-3xl font-sinhala text-stone-700 mb-3 drop-shadow-sm">සුපුන් සංජීව</h4>
-            <p className="text-stone-500/90 font-sans text-xs sm:text-sm text-center lg:text-right">
+            <p className="text-stone-500/90 font-sans text-xs sm:text-sm text-center lg:text-right mb-4">
               Aththidiya Vidanalage Don Thilak Rohitha Kumara &<br/>
-              Jasinliyanage Dona Achala Kamini Wijegunasekara
+              Jasinliyanage Dona Achała Kamini Wijegunasekara
             </p>
-            <p className="text-stone-500/90 font-sinhala text-sm sm:text-base mt-2 text-center lg:text-right">
-              අත්තිඩිය විදානලාගේ දොන් තිලක් රෝහිත කුමාර සහ<br/>
-              ජාසින්ලියනගේ දෝන අචලා කාමිනී විජේගුණසේකරගේ<br/>
-              ආදරණීය පුත්,
-            </p>
+            <h4 className="text-2xl sm:text-3xl font-sinhala text-stone-700 drop-shadow-sm">ව්‍යාපාරික(ජාල ඉංජිනේරු) සුපුන් සංජීව</h4>
           </div>
           <div className="hidden lg:flex justify-end mt-8">
             <Heart className="w-6 h-6 text-brand-lavender/60 fill-brand-lavender/20 transform hover:scale-110 transition-transform cursor-pointer" />
@@ -69,18 +59,11 @@ export const CoupleDetails: React.FC = () => {
           className="text-center lg:text-left flex-1 lg:pl-10 order-2"
         >
           <div className="mb-4 flex flex-col items-center lg:items-start">
-            <span className="text-brand-plum uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Bride</span>
-            <h3 className="text-4xl sm:text-5xl font-names text-stone-800 mb-1 drop-shadow-sm">Shakya</h3>
-            <h4 className="text-2xl sm:text-3xl font-sinhala text-stone-700 mb-3 drop-shadow-sm">නෙත්මි ශාක්‍යා හේරත්</h4>
-            <p className="text-stone-500/90 font-sans text-xs sm:text-sm text-center lg:text-left">
+            <p className="text-stone-500/90 font-sans text-xs sm:text-sm text-center lg:text-left mb-4">
               Herath Bandara Mudiyanselage Chaminda Pushpakumara Herath &<br/>
               Dompege Shalika Madushini Siriwardana
             </p>
-            <p className="text-stone-500/90 font-sinhala text-sm sm:text-base mt-2 text-center lg:text-left">
-              හේරත් බංඩාර මුදියන්සේලාගේ චමින්ද පුෂ්පකුමාර හේරත් සහ<br/>
-              දොම්පේගේ ශාලිකා මදුෂිණි සිරිවර්ධනගේ<br/>
-              ආදරණීය දියණිය,
-            </p>
+            <h4 className="text-2xl sm:text-3xl font-sinhala text-stone-700 drop-shadow-sm">නීතිවේදි ශාක්‍යා හේරත්</h4>
           </div>
           <div className="hidden lg:flex justify-start mt-8">
             <Heart className="w-6 h-6 text-brand-lavender/60 fill-brand-lavender/20 transform hover:scale-110 transition-transform cursor-pointer" />

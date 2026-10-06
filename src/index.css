@@ -2,11 +2,11 @@
 @import "tailwindcss";
 
 @theme {
-  /* Beige & Sage Green Color Palette */
-  --color-brand-plum: #627254;
-  --color-brand-lavender: #A0B092;
-  --color-brand-rose: #D4DEC9;
-  --color-brand-blush: #F9F6F0;
+  /* Beige & Maroon Color Palette */
+  --color-brand-plum: #7c2a2a;
+  --color-brand-lavender: #b05c5c;
+  --color-brand-rose: #ebd3d3;
+  --color-brand-blush: #fcf8f5;
 
   --font-serif: "Cormorant Garamond", serif;
   --font-display: "Great Vibes", cursive;

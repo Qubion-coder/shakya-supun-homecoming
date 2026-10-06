@@ -120,20 +120,7 @@ export function InvitationContent({
         </div>
       </DeferredMount>
 
-      <DeferredMount active={active} delay={500} minHeight="40vh">
-        <div className="py-16 sm:py-24 bg-white relative overflow-hidden flex justify-center items-center px-4">
-          <div className="w-full max-w-5xl rounded-[2.5rem] overflow-hidden shadow-[0_20px_50px_rgba(176,137,104,0.15)] border border-brand-lavender/30">
-            <video 
-              src="/Couple_saying_goodbye_202608130003%20(online-video-cutter.com).mp4"
-              autoPlay 
-              muted 
-              loop 
-              playsInline
-              className="w-full h-auto object-cover"
-            />
-          </div>
-        </div>
-      </DeferredMount>
+
 
       <DeferredMount active={active} delay={520}>
         <footer className="py-12 bg-white border-t border-brand-lavender/20 text-center relative overflow-hidden mt-10">
@@ -142,7 +129,7 @@ export function InvitationContent({
           <p className="font-names text-4xl sm:text-5xl text-stone-800 mb-1">Shakya & Supun</p>
           <p className="font-sinhala text-2xl sm:text-3xl text-stone-700 mb-4">ශාක්‍යා සහ සුපුන්</p>
           <p className="text-[11px] sm:text-xs font-serif uppercase tracking-[0.3em] font-medium text-stone-500 mb-6 drop-shadow-sm">
-            October 29, 2026
+            November 1, 2026
           </p>
           <p className="text-stone-400 text-xs mt-4 font-sans tracking-wider">
             Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-brand-plum font-bold hover:text-brand-rose transition-colors underline decoration-brand-plum/30 hover:decoration-brand-rose" href="https://wa.me/94707819074">invitemint</a>
