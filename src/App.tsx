@@ -24,7 +24,7 @@ export default function App() {
     ? `${nameParam} and Family`.trim()
     : `${titleParam} ${nameParam}`.trim();
 
-  let eventLabel = 'Our Wedding Celebration';
+  let eventLabel = 'Our Homecoming Celebration';
 
   const weddingDate = new Date('2026-11-01T18:00:00');
 

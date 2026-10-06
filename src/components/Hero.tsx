@@ -51,7 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
       >
         <img
           src="/ChatGPT Image Jul 5, 2026, 02_20_06 AM.png"
-          alt="Wedding Background"
+          alt="Homecoming Background"
           loading="eager"
           fetchPriority="high"
           decoding="async"
@@ -105,8 +105,8 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
             <div className="hidden sm:block h-[1px] w-16 bg-gradient-to-r from-transparent via-brand-plum to-transparent" />
             <p className="text-[1.15rem] sm:text-2xl font-sans text-stone-900 tracking-wide px-2 text-center max-w-xl leading-relaxed drop-shadow-sm font-medium">
               {inviteeName 
-                ? <>We cordially invite <span className="text-brand-plum font-bold">{inviteeName}</span> to our wedding</>
-                : <>We cordially invite you to our wedding</>}
+                ? <>We cordially invite <span className="text-brand-plum font-bold">{inviteeName}</span> to our homecoming</>
+                : <>We cordially invite you to our homecoming</>}
             </p>
             <div className="hidden sm:block h-[1px] w-16 bg-gradient-to-r from-transparent via-brand-plum to-transparent" />
           </div>

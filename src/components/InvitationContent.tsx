@@ -132,7 +132,7 @@ export function InvitationContent({
             November 1, 2026
           </p>
           <p className="text-stone-400 text-xs mt-4 font-sans tracking-wider">
-            Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-brand-plum font-bold hover:text-brand-rose transition-colors underline decoration-brand-plum/30 hover:decoration-brand-rose" href="https://wa.me/94707819074">invitemint</a>
+            Want a beautiful homecoming website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-brand-plum font-bold hover:text-brand-rose transition-colors underline decoration-brand-plum/30 hover:decoration-brand-rose" href="https://wa.me/94707819074">invitemint</a>
           </p>
         </footer>
       </DeferredMount>

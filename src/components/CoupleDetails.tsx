@@ -36,9 +36,10 @@ export const CoupleDetails: React.FC = () => {
           className="text-center lg:text-right flex-1 lg:pr-10 order-1"
         >
           <div className="mb-4 flex flex-col items-center lg:items-end">
-            <p className="text-stone-500/90 font-sans text-xs sm:text-sm text-center lg:text-right mb-4">
-              Aththidiya Vidanalage Don Thilak Rohitha Kumara &<br/>
-              Jasinliyanage Dona Achała Kamini Wijegunasekara
+            <p className="text-stone-500/90 font-sinhala text-sm sm:text-base text-center lg:text-right mb-4 leading-relaxed">
+              අත්තිඩිය විදානලාගේ දොන් තිලක් රෝහිත කුමාර සහ<br/>
+              ජාසින්ලියනගේ දෝන අචලා කාමිනී විජේගුණසේකරගේ<br/>
+              ආදරණීය පුත්,
             </p>
             <h4 className="text-2xl sm:text-3xl font-sinhala text-stone-700 drop-shadow-sm">ව්‍යාපාරික(ජාල ඉංජිනේරු) සුපුන් සංජීව</h4>
           </div>
@@ -59,9 +60,10 @@ export const CoupleDetails: React.FC = () => {
           className="text-center lg:text-left flex-1 lg:pl-10 order-2"
         >
           <div className="mb-4 flex flex-col items-center lg:items-start">
-            <p className="text-stone-500/90 font-sans text-xs sm:text-sm text-center lg:text-left mb-4">
-              Herath Bandara Mudiyanselage Chaminda Pushpakumara Herath &<br/>
-              Dompege Shalika Madushini Siriwardana
+            <p className="text-stone-500/90 font-sinhala text-sm sm:text-base text-center lg:text-left mb-4 leading-relaxed">
+              හේරත් බංඩාර මුදියන්සේලාගේ චමින්ද පුෂ්පකුමාර හේරත් සහ<br/>
+              දොම්පේගේ ශාලිකා මදුෂිණි සිරිවර්ධනගේ<br/>
+              ආදරණීය දියණිය,
             </p>
             <h4 className="text-2xl sm:text-3xl font-sinhala text-stone-700 drop-shadow-sm">නීතිවේදි ශාක්‍යා හේරත්</h4>
           </div>

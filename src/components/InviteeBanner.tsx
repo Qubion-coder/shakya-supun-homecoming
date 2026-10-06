@@ -29,7 +29,7 @@ export const InviteeBanner: React.FC<InviteeBannerProps> = ({ inviteeName, event
           <div className="flex items-center gap-4 justify-center max-w-xl mx-auto">
             <div className="h-[1px] w-12 bg-gradient-to-r from-transparent to-brand-plum/40" />
             <p className="text-stone-600 font-sans text-lg sm:text-xl font-medium tracking-wide">
-              We warmly invite you to share the joy of our wedding celebration.
+              We warmly invite you to share the joy of our homecoming celebration.
             </p>
             <div className="h-[1px] w-12 bg-gradient-to-l from-transparent to-brand-plum/40" />
           </div>
