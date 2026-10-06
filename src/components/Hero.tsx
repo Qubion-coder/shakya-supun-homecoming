@@ -91,12 +91,12 @@ export const Hero: React.FC<HeroProps> = ({ event = 'both', inviteeName }) => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] sm:w-[125%] h-[150%] sm:h-[160%] bg-gradient-radial from-white/95 via-white/85 to-transparent blur-[40px] sm:blur-[70px] rounded-full pointer-events-none" />
 
             <h1 className="relative text-4xl sm:text-[5.5rem] lg:text-[7.5rem] font-names text-[var(--color-brand-plum)] font-normal leading-normal sm:leading-[0.85] drop-shadow-[0_4px_16px_rgba(255,255,255,0.9)] tracking-normal sm:tracking-tight overflow-visible py-2">
-              SHAKYA <br className="sm:hidden" />
+              SUPUN <br className="sm:hidden" />
               <span className="text-[var(--color-brand-plum)] font-normal mx-2 sm:mx-6 text-3xl sm:text-[4.5rem] lg:text-[6rem] inline-block -translate-y-1 sm:-translate-y-6 drop-shadow-[0_4px_12px_rgba(98,114,84,0.3)]">&</span>
               <br className="sm:hidden" />
-              SUPUN
+              SHAKYA
               <div className="text-3xl sm:text-6xl mt-4 sm:mt-6 font-sinhala text-[var(--color-brand-plum)] drop-shadow-[0_4px_12px_rgba(255,255,255,0.9)]">
-                ශාක්‍යා සහ සුපුන්
+                සුපුන් සහ ශාක්‍යා
               </div>
             </h1>
           </div>

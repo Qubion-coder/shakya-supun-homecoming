@@ -126,8 +126,8 @@ export function InvitationContent({
         <footer className="py-12 bg-white border-t border-brand-lavender/20 text-center relative overflow-hidden mt-10">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-brand-lavender/10 blur-[80px] rounded-full pointer-events-none" />
           <Heart className="w-6 h-6 mx-auto mb-6 text-brand-plum fill-brand-lavender/20" />
-          <p className="font-names text-4xl sm:text-5xl text-stone-800 mb-1">Shakya & Supun</p>
-          <p className="font-sinhala text-2xl sm:text-3xl text-stone-700 mb-4">ශාක්‍යා සහ සුපුන්</p>
+          <p className="font-names text-4xl sm:text-5xl text-stone-800 mb-1">Supun & Shakya</p>
+          <p className="font-sinhala text-2xl sm:text-3xl text-stone-700 mb-4">සුපුන් සහ ශාක්‍යා</p>
           <p className="text-[11px] sm:text-xs font-serif uppercase tracking-[0.3em] font-medium text-stone-500 mb-6 drop-shadow-sm">
             November 1, 2026
           </p>
